@@ -111,7 +111,6 @@
         box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
     }
     
-    
     .blog .box-container .box .image{
         height: 25rem;
         overflow: hidden;
@@ -199,6 +198,11 @@
        #aqua {
          display: none;
        }
+       
+       footer {
+         display: none;
+       }
+  
    }
    /* media query para mobile */
    @media (max-width: 909px) {
@@ -315,7 +319,7 @@
                 </div>
                 <div class="content">
                     <h3>Lutero E Seu Signo Escorpião ♏🦂</h3>
-                    <p>A ligação de Matinho Lutero e seu signo e suas profundas características e mudanças na Reforma Protestante... 06/12/2022 • <mark>#escorpião #reformaProtestante #séculoXVI</mark></p>
+                    <p>A ligação de Matinho Lutero e seu signo e suas profundas características e mudanças na Reforma Protestante... 06/12/2022 • <mark>#escorpião #religião #séculoXVI</mark></p>
                     <a href="https://vitordev01.github.io/pagina-reforma-protestante/" class="btn">Ler Mais</a>
                 </div>
             </div>
