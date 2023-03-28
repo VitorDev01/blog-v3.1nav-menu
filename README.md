@@ -161,10 +161,10 @@
     }
     
     .blog .box-container .box .content p{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         padding: 1rem 0;
         line-height: 2;
-        color: #777;
+        color: #222;
     }
     
     .btn{
@@ -227,7 +227,6 @@
          display: block;
          margin-top: 20px;
          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-         
        }
        
        nav {
@@ -252,11 +251,13 @@
         font-weight: bold;
      
        }
+
        nav li {
          display: block;
          margin: 50px 0;
          line-height: 30px;
        }
+   
        nav a {
          font-size: 25px;
          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -331,6 +332,19 @@
             <div class="box shadow">
 
                 <div class="image">
+                    <img src="blog_4.jpg" alt="">
+                   
+                </div>
+                <div class="content">
+                    <h3>Whitney Houston Análise Mapa Natal</h3>
+                    <p>Interpretação da casa astrológica de saúde da cantora e seus desafios com as drogas... • 28/03/2023 <mark>#mapanatal #leão #peixes #WhitneyHouston #saúde</mark></p>
+                    <a href="https://vitordev01.github.io/pagina-blog-4/" class="btn">Ler Mais</a>
+                </div>
+            </div>
+            <!-- Página 2-->
+            <div class="box shadow">
+
+                <div class="image">
                     <img src="blog_1.jpg" alt="">
                     
                 </div>
@@ -340,7 +354,8 @@
                     <a href="https://vitordev01.github.io/pagina-asteologia-saudemental/" class="btn">Ler Mais</a>
                 </div>
             </div>
-            <!-- Página 2-->
+            
+            <!-- Página 3-->
             <div class="box shadow">
 
                 <div class="image">
@@ -349,11 +364,11 @@
                 </div>
                 <div class="content">
                     <h3>Lutero E Seu Signo Escorpião ♏🦂</h3>
-                    <p>A ligação de Matinho Lutero e seu signo e suas profundas características e mudanças na Reforma Protestante... 06/12/2022 • <mark>#escorpião #religião #séculoXVI</mark></p>
+                    <p>A ligação de Matinho Lutero e seu signo e suas profundas características e mudanças na Reforma Protestante...  06/12/2022 • <mark>#escorpião #religião #séculoXVI</mark></p>
                     <a href="https://vitordev01.github.io/pagina-reforma-protestante/" class="btn">Ler Mais</a>
                 </div>
             </div>
-            <!-- Página 3-->
+            <!-- Página 4-->
             <div class="box shadow">
 
                 <div class="image">
@@ -363,25 +378,10 @@
                 <div class="content">
                     <h3>Os 12 Signos Do Zodíaco </h3>
                     <p>As principais características dos signos e suas coligações com outros temas... • 01/12/2022 <mark>#astrologia #personalidade #individualidade #signos</mark></p>
-                    <a href="#" class="btn">Leia Mais</a>
+                    <a href="https://vitordev01.github.io/pagina-signos-curso/" class="btn">Leia Mais</a>
                 </div>
-
             </div>
             <!-- 
-            <div class="box shadow">
-
-                <div class="image">
-                    <img src="blog_4.jpg" alt="">
-                    <h3><i class="fas fa-heart"></i> 80</h3>
-                </div>
-                <div class="content">
-                    <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-
-            </div>
-
             <div class="box shadow">
 
                 <div class="image">
