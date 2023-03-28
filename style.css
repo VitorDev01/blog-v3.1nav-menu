@@ -1,0 +1,260 @@
+ 
+   /*Formatação da página*/
+   *{
+      font-family: 'times', sans-serif;
+      box-sizing: border-box;
+      outline: none;
+      text-decoration: none;
+      transition: all .2s linear;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      list-style: none;
+   }
+   
+   html {
+     font-size: 62.5%;
+     overflow-x: hidden
+   }
+   
+   /* Estilizando corpo da página*/
+   body {
+     background-color: #159494;
+   }
+   /*Estilizando a barra de navegação no topo*/
+   nav {
+     height: 80px;
+     width: 100%;
+     background-color: #0B6170;
+   }
+   
+   img {
+     height: 100px;
+     width: 203px;
+     margin: 5px;
+     margin-top:-10px;
+   }
+   
+   label i {
+     color: #fff;
+     font-size: 40px;
+     font-weight: bold;
+     
+   }
+   
+   nav ul {
+     float: right;
+     margin-right: 40px;
+   }
+   
+   nav li {
+     display: inline-block;
+     margin: 0 8px;
+     line-height: 80px;
+   }
+   
+   nav a {
+     color: #fff;
+     font-family: times;
+     font-size: 18px;
+    
+     padding: 7px 10px;
+     border-radius: 5px;
+   }
+   
+   a.active, a:hover {
+    
+     border: 2px  solid #0B6170;
+     transition: .5s;
+     
+   }
+   
+   nav #icon {
+     color: white;
+     font-size: 30px;
+     line-height: 80px;
+     float: right;
+     margin-right: 40px;
+     cursor: pointer;
+     display: none;
+   }
+   section{
+    padding: 5rem 10%;
+   }
+
+    .heading{
+        text-align: center;
+        margin-bottom: 3rem;
+        font-size: 3.5rem;
+        text-transform: capitalize;
+        color: #444;
+    }
+    
+    .blog .box-container{
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        gap: 2rem;    
+    }
+    
+    .blog .box-container .box:hover .image img{
+        transform: scale(1.1);
+    }
+    
+    .blog .box-container .box.shadow{
+       
+        box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34) !important;
+    }
+    
+    
+    .blog .box-container .box .image{
+        height: 25rem;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .blog .box-container .box .image img{
+        height: 100%;
+        width: 100%;
+        -o-object-fit: cover;
+           object-fit: cover; 
+    }
+    
+    .blog .box-container .box .image h3{
+        border-radius: 15px;
+        background-color: #fff;
+        color: #444;
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+        padding: .5rem 1.5rem;
+        font-size: 1.5rem;
+        
+    }
+    
+    .blog .box-container .box .image h3 i{
+        color: #bd18b4;
+    }
+    
+    .blog .box-container .box .content{
+        padding: 2rem;
+        background-color: #fff;
+    }
+    
+    .blog .box-container .box .content h3{
+        font-size: 2rem;
+    }
+    
+    .blog .box-container .box .content p{
+        font-size: 1.5rem;
+        padding: 1rem 0;
+        line-height: 2;
+        color: #777;
+    }
+    
+    .btn{
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.8rem 2rem;
+        font-size: 1.2rem;
+        border: 0.1rem solid #fff;
+        background: #0B6170;
+        color: white;
+        cursor: pointer;
+        text-transform: capitalize;
+        border-radius: 5px;
+        outline: none;
+    }
+    
+    .btn:hover{
+        background: #159494;
+        color: #fff;
+    }
+    
+    mark {
+      border-radius: 5px;
+      background-color: #159494;
+      color: #fff;
+    }
+    
+   /* media query para pc */
+   @media (max-width: 1048px) {
+       label.logo {
+         font-size: 32px;
+         padding-left: 60px;
+       }
+       
+       nav ul {
+         margin-right: 20px;
+       }
+       
+       nav a {
+         font-size: 17px;
+       }
+       #aqua {
+         display: none;
+       }
+   }
+   /* media query para mobile */
+   @media (max-width: 909px) {
+       nav #icon {
+         display: block;
+         margin-top: 20px;
+         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+         
+         
+       }
+       
+       nav ul {
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         background: #159494;
+         top: 80px;
+         left: -100%;
+         text-align: center;
+         transition: all .5s;
+         z-index: 1000;
+       }
+       
+       nav li {
+         display: block;
+         margin: 50px 0;
+         line-height: 30px;
+       }
+       nav a {
+         font-size: 25px;
+         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+         text-decoration: none;
+       }
+       
+       a.active,a:hover {
+         border: none;
+         color: #0B6170
+         
+       }
+       
+       nav ul.show {
+         left: 0;
+       }
+       #aqua {
+         display: inline-block;
+       }
+       
+       footer {
+         position: relative;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background: #0B6170;
+         height: 50px;
+         width: 100vw;
+         font-family: "times";
+         padding-top: 10px;
+         color: #fff;
+         text-align: center;
+      
+    }
+   }
+   /* Idéia principal da Barra nav e o menu mibile e desktop ( https://youtu.be/tEC4kqzNTnM)*/
