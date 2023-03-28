@@ -7,13 +7,19 @@
   	<link rel="icon" href="https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f468-1f3fb-1f4bb.png" sizes="32x32">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
     <title></title>
     <!-- estilo integrado para github pages-->
     <style> 
      
    /*Formatação da página*/
    *{
-      font-family: 'times', sans-serif;
+      
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      letter-spacing: 1px;
       box-sizing: border-box;
       outline: none;
       text-decoration: none;
@@ -26,12 +32,13 @@
    
    html {
      font-size: 62.5%;
-     overflow-x: hidden
+     overflow-x: hidden;
    }
    
    /* Estilizando corpo da página*/
    body {
      background-color: #159494;
+     font-size: 13px;
    }
    /*Estilizando a barra de navegação no topo*/
    nav {
@@ -41,10 +48,12 @@
    }
    
    img {
-     height: 100px;
-     width: 203px;
+     display: inline;
+     height: 90px;
+     width: 190px;
      margin: 5px;
-     margin-top:-10px;
+     margin-top:-5px;
+     
    }
    
    nav ul {
@@ -60,8 +69,8 @@
    
    nav a {
      color: #fff;
-     font-family: times;
-     font-size: 18px;
+     font-family: 'Playfair Display', serif;
+     font-size: 20px;
      padding: 7px 10px;
      border-radius: 5px;
    }
@@ -82,10 +91,12 @@
      cursor: pointer;
      display: none;
    }
+ 
    section{
     padding: 5rem 10%;
+    margin-top: 60px;    
    }
-
+   
     .heading{
         text-align: center;
         margin-bottom: 3rem;
@@ -200,8 +211,13 @@
          display: none;
        }
        
-       footer {
-        
+       h3 {
+         display: none
+       }
+       
+       h1 {
+         display: none;
+         font-family: 'Playfair Display', serif;
        }
   
    }
@@ -212,9 +228,12 @@
          margin-top: 20px;
          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
          
-         
        }
        
+       nav {
+         position: fixed;
+         z-index: 1000;
+       }
        nav ul {
          position: fixed;
          width: 100%;
@@ -266,11 +285,20 @@
          height: 50px;
          width: 100vw;
          font-family: "times";
-         padding-top: 10px;
          color: #fff;
          text-align: center;
+      }
       
-    }
+      h3 {
+        display: inline-block;
+        margin-top: 10px;
+      }
+      
+      h1 {
+        display: inline;
+        font-family: 'Playfair Display', serif;
+      }
+      
    }
    /* Idéia principal da Barra nav e o menu mibile e desktop ( https://youtu.be/tEC4kqzNTnM)*/
     </style>
@@ -284,10 +312,11 @@
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
             <li><a href="https://astrologia-tarot.netlify.app/">Serviços</a></li>
             
-            <img id="aqua" src="aqua.png" style="height:200px; border-radius:50%; width: 200px; background-color: #fff; box-shadow: 2px 2px 2px black;">
+            <img id="aqua" src="si1.png" style="height:210px; border-radius:10px 0px 10px 0px; width: 210px; background-color: #fff; box-shadow: 1px 1px 1px black;">
             <br>
             <br>
-            <h1 style="color: #fff;">bem vindo(a) ao blog! boa leitura.</h1>
+            <h1 style="color: #fff; font-size: 10px;">bem vindo(a) ao blog! boa leitura.
+            Última Atualização em 28/03/23</h1>
           </ul>
           <label id="icon">
             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -385,9 +414,8 @@
      <!-- roda pé da página -->
     <footer>
         <div class="footer-content">
-          <br>
-          <p>© Vitor Oliveira 2023 | Github Pages</p>
-        
+          <h3>© Vitor Oliveira 2023</h3>
+         
         </div>
       </footer>
       <!-- Script para Fazer o menu funcionar-->
