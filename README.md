@@ -161,17 +161,18 @@
         margin-top: 1rem;
         padding: 0.8rem 2rem;
         font-size: 1.2rem;
-        border: 0.1rem solid #fff;
-        background: #0B6170;
+        border: 0.1rem solid #0B6170;
+        background: #159494;
         color: white;
         cursor: pointer;
         text-transform: capitalize;
         border-radius: 5px;
+        box-shadow: 1px 1px 1px black;
         outline: none;
     }
     
     .btn:hover{
-        background: #159494;
+        background: #0B6170;
         color: #fff;
     }
     
@@ -200,7 +201,7 @@
        }
        
        footer {
-         
+        
        }
   
    }
@@ -283,7 +284,7 @@
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
             <li><a href="https://astrologia-tarot.netlify.app/">Serviços</a></li>
             
-            <img id="aqua" src="aqua.png" style="height:200px; border-radius:50%; width: 200px; background-color: #fff;">
+            <img id="aqua" src="aqua.png" style="height:200px; border-radius:50%; width: 200px; background-color: #fff; box-shadow: 2px 2px 2px black;">
             <br>
             <br>
             <h1 style="color: #fff;">bem vindo(a) ao blog! boa leitura.</h1>
@@ -333,7 +334,7 @@
                 <div class="content">
                     <h3>Os 12 Signos Do Zodíaco </h3>
                     <p>As principais características dos signos e suas coligações com outros temas... • 01/12/2022 <mark>#astrologia #personalidade #individualidade #signos</mark></p>
-                    <a href="#" class="btn">read more</a>
+                    <a href="#" class="btn">Leia Mais</a>
                 </div>
 
             </div>
