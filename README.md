@@ -230,6 +230,13 @@
          z-index: 1000;
        }
        
+       label i {
+        color: #fff;
+        font-size: 40px;
+        font-weight: bold;
+     
+       }
+
        nav li {
          display: block;
          margin: 50px 0;
