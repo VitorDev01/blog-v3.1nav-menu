@@ -4,10 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <meta name="robots" content="max-image-preview:large">
-  	<link rel="icon" href="" sizes="32x32">
-    <link rel = "stylesheet" href = "style.css" > 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  	<link rel="icon" href="https://images.emojiterra.com/google/noto-emoji/v2.034/128px/1f468-1f3fb-1f4bb.png" sizes="32x32">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <title></title>
     <!-- estilo integrado para github pages-->
     <style> 
@@ -46,13 +45,6 @@
      width: 203px;
      margin: 5px;
      margin-top:-10px;
-   }
-   
-   label i {
-     color: #fff;
-     font-size: 40px;
-     font-weight: bold;
-     
    }
    
    nav ul {
@@ -236,7 +228,6 @@
         font-weight: bold;
      
        }
-
        nav li {
          display: block;
          margin: 50px 0;
@@ -294,7 +285,7 @@
             <h1 style="color: #fff;">bem vindo(a) ao blog! boa leitura.</h1>
           </ul>
           <label id="icon">
-            <i class="fas fa-bars"></i>
+            <i class="fa fa-bars" aria-hidden="true"></i>
           </label>
       </nav>
       <br>
