@@ -277,7 +277,7 @@
       <nav>
         <img src="astro1.png">
           <ul>
-            <li class="active"><a href="#">Blog Home</a></li>
+            <li class="active"><a href="https://blogoficialvr.netlify.app/">Blog Home</a></li>
             <li><a href="https://vitordev01.netlify.app/">Sobre Min</a></li>
             <li><a href="https://www.instagram.com/vitorkw89/">Instagram </a></li>
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
