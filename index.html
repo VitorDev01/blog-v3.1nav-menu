@@ -10,13 +10,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
+     
+
     <title></title>
     <!-- estilo integrado para github pages-->
     <style> 
      
    /*Formatação da página*/
    *{
-      
       font-family: 'Playfair Display', serif;
       font-size: 16px;
       letter-spacing: 1px;
@@ -111,6 +112,7 @@
         -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
             grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
         gap: 2rem;    
+        margin-top: -90px;
     }
     
     .blog .box-container .box:hover .image img{
@@ -219,7 +221,15 @@
          display: none;
          font-family: 'Playfair Display', serif;
        }
-  
+       
+       .fundo {
+        background-color: #159494;
+        color: #fff;
+        font-size: 20px
+        display: inline;
+        text-align: center;
+        margin-top: 50px;
+       }
    }
    /* media query para mobile */
    @media (max-width: 909px) {
@@ -233,6 +243,7 @@
          position: fixed;
          z-index: 1000;
        }
+     
        nav ul {
          position: fixed;
          width: 100%;
@@ -267,12 +278,12 @@
        a.active,a:hover {
          border: none;
          color: #0B6170
-         
        }
        
        nav ul.show {
          left: 0;
        }
+   
        #aqua {
          display: inline-block;
        }
@@ -297,10 +308,23 @@
       }
       
       h1 {
+        color: #fff;
+        font-size: 14px;
         display: inline;
+        text-align: justify;
+        margin: 10px;
+        padding: 10px;
         font-family: 'Playfair Display', serif;
       }
       
+      .fundo {
+        background-color: #159494;
+        color: #fff;
+        font-size: 20px
+        display: inline;
+        text-align: center;
+        margin-top: 50px;
+      }
    }
    /* Idéia principal da Barra nav e o menu mibile e desktop ( https://youtu.be/tEC4kqzNTnM)*/
     </style>
@@ -313,21 +337,100 @@
             <li><a href="https://www.instagram.com/vitorkw89/">Instagram </a></li>
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
             <li><a href="https://astrologia-tarot.netlify.app/">Serviços</a></li>
-            
-            <img id="aqua" src="si1.png" style="height:210px; border-radius:10px 0px 10px 0px; width: 210px; background-color: #fff; box-shadow: 1px 1px 1px black;">
             <br>
+            <h1>bem vindo(a) ao blog! boa leitura.
+            </h1>
             <br>
-            <h1 style="color: #fff; font-size: 10px;">bem vindo(a) ao blog! boa leitura.
-            Última Atualização em 28/03/23</h1>
+            <h1>Última Atualização em 28/03/23</h1>
           </ul>
           <label id="icon">
             <i class="fa fa-bars" aria-hidden="true"></i>
           </label>
       </nav>
-      <br>
+      <br><br>
+      <!-- Script Hora e data atual-->
+      <div class="fundo">
+            <script type="text/javascript" language="JavaScript">
+
+              var now = new Date();
+              var hours = now.getHours();
+              var minutes = now.getMinutes();
+              var timeValue = "" + (hours)
+              timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+              timerRunning = true;
+              
+              mydate = new Date();
+              myday = mydate.getDay();
+              mymonth = mydate.getMonth();
+              myweekday= mydate.getDate();
+              weekday= myweekday;
+              myyear= mydate.getFullYear();
+              year = myyear;
+              
+              if(myday == 0)
+              day = " Domingo, "
+              
+              else if(myday == 1)
+              day = " Segunda, "
+              
+              else if(myday == 2)
+              day = " Terça, "
+              
+              else if(myday == 3)
+              day = " Quarta, "
+              
+              else if(myday == 4)
+              day = " Quinta, "
+              
+              else if(myday == 5)
+              day = " Sexta, "
+              
+              else if(myday == 6)
+              day = " Sábado, "
+              
+              if(mymonth == 0)
+              month = " de Janeiro de "
+              
+              else if(mymonth ==1)
+              month = " de Fevereiro de "
+              
+              else if(mymonth ==2)
+              month = " de Março de "
+              
+              else if(mymonth ==3)
+              month = " de April de "
+              
+              else if(mymonth ==4)
+              month = " de Maio de "
+              
+              else if(mymonth ==5)
+              month = " de Junho de "
+              
+              else if(mymonth ==6)
+              month = " de Julho de "
+              
+              else if(mymonth ==7)
+              month = " de Agosto de "
+              
+              else if(mymonth ==8)
+              month = " de Setembro de "
+              
+              else if(mymonth ==9)
+              month = " de Outubro de "
+              
+              else if(mymonth ==10)
+              month = " de Novembro de "
+              
+              else if(mymonth ==11)
+              month = " de Dezembro de "
+              
+              document.write( day + myweekday + month + year + " - " + timeValue);
+              
+           </script>
+           </div>
+      
       <!-- seções de cada página do blog-->
       <section class="blog">
-        
          <!-- Página 1-->
         <div class="box-container">
             <div class="box shadow">
