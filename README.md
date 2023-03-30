@@ -292,7 +292,8 @@
       
       h3 {
         display: inline-block;
-        margin-top: 10px;
+        margin-top: 20px;
+        font-size: 10px;
       }
       
       h1 {
@@ -326,9 +327,22 @@
       <br>
       <!-- seções de cada página do blog-->
       <section class="blog">
-
+        
+         <!-- Página 1-->
         <div class="box-container">
-            <!-- Página 1-->
+            <div class="box shadow">
+
+                <div class="image">
+                    <img src="blog_5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Saturno Em Peixes A Queda Dos Falsos Mestres</h3>
+                    <p>Saturno entrou no signo de peixes em março de 2023 veja os impactos que ele causará até 2026... • 30/03/2023 <mark>#saturno #peixes #religião #despertar #consciência </p>
+                    <a href="https://vitordev01.github.io/pagina-blog-5/" class="btn">Ler Mais</a>
+                </div>
+            </div>  
+         
+            <!-- Página 2-->
             <div class="box shadow">
 
                 <div class="image">
@@ -337,11 +351,11 @@
                 </div>
                 <div class="content">
                     <h3>Whitney Houston Análise Mapa Natal</h3>
-                    <p>Interpretação da casa astrológica de saúde da cantora e seus desafios com as drogas... • 28/03/2023 <mark>#mapanatal #leão #peixes #WhitneyHouston #saúde</mark></p>
+                    <p>Interpretação da casa astrológica de saúde da cantora e seus desafios com as drogas... • 30/03/2023 <mark>#mapanatal #leão #peixes #WhitneyHouston #saúde</mark></p>
                     <a href="https://vitordev01.github.io/pagina-blog-4/" class="btn">Ler Mais</a>
                 </div>
             </div>
-            <!-- Página 2-->
+            <!-- Página 3-->
             <div class="box shadow">
 
                 <div class="image">
@@ -355,7 +369,7 @@
                 </div>
             </div>
             
-            <!-- Página 3-->
+            <!-- Página 4-->
             <div class="box shadow">
 
                 <div class="image">
@@ -368,7 +382,7 @@
                     <a href="https://vitordev01.github.io/pagina-reforma-protestante/" class="btn">Ler Mais</a>
                 </div>
             </div>
-            <!-- Página 4-->
+            <!-- Página 5-->
             <div class="box shadow">
 
                 <div class="image">
@@ -382,20 +396,6 @@
                 </div>
             </div>
             <!-- 
-            <div class="box shadow">
-
-                <div class="image">
-                    <img src="blog_5.jpg" alt="">
-                    <h3><i class="fas fa-heart"></i> 50</h3>
-                </div>
-                <div class="content">
-                    <h3>Do You Want Your Blog To Stand Alone Or Support Another Site?</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, odit!</p>
-                    <a href="#" class="btn">read more</a>
-                </div>
-
-            </div>
-
             <div class="box shadow">
 
                 <div class="image">
@@ -414,7 +414,7 @@
      <!-- roda pé da página -->
     <footer>
         <div class="footer-content">
-          <h3>© Vitor Oliveira 2023</h3>
+          <h3>© Vitor Oliveira 2023 todos os direitos reservados</h3>
          
         </div>
       </footer>
