@@ -51,7 +51,7 @@
    img {
      display: inline;
      height: 100px;
-     width: 100px;
+     width: 90px;
      margin: 5px;
      margin-top:-12px;
    }
