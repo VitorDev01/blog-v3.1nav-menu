@@ -50,11 +50,10 @@
    
    img {
      display: inline;
-     height: 90px;
-     width: 190px;
+     height: 100px;
+     width: 100px;
      margin: 5px;
-     margin-top:-5px;
-     
+     margin-top:-12px;
    }
    
    nav ul {
@@ -287,19 +286,6 @@
        #aqua {
          display: inline-block;
        }
-       
-       footer {
-         position: relative;
-         bottom: 0;
-         left: 0;
-         right: 0;
-         background: #0B6170;
-         height: 50px;
-         width: 100vw;
-         font-family: "times";
-         color: #fff;
-         text-align: center;
-      }
       
       h3 {
         display: inline-block;
@@ -320,10 +306,23 @@
       .fundo {
         background-color: #159494;
         color: #fff;
-        font-size: 20px
+        font-size: 15px
         display: inline;
         text-align: center;
-        margin-top: 50px;
+        margin-top: 70px;
+      }
+      
+      footer {
+         position: relative;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background: #0B6170;
+         height: 50px;
+         width: 100vw;
+         font-family: "times";
+         color: #fff;
+         text-align: center;
       }
    }
    /* Idéia principal da Barra nav e o menu mibile e desktop ( https://youtu.be/tEC4kqzNTnM)*/
@@ -338,10 +337,6 @@
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
             <li><a href="https://astrologia-tarot.netlify.app/">Serviços</a></li>
             <br>
-            <h1>bem vindo(a) ao blog! boa leitura.
-            </h1>
-            <br>
-            <h1>Última Atualização em 28/03/23</h1>
           </ul>
           <label id="icon">
             <i class="fa fa-bars" aria-hidden="true"></i>
@@ -398,7 +393,7 @@
               month = " de Março de "
               
               else if(mymonth ==3)
-              month = " de April de "
+              month = " de Abril de "
               
               else if(mymonth ==4)
               month = " de Maio de "
