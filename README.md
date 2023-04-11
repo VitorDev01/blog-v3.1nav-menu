@@ -46,14 +46,16 @@
      height: 80px;
      width: 100%;
      background-color: #0B6170;
+     box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34);
    }
    
    img {
      display: inline;
-     height: 100px;
-     width: 100px;
+     height: 110px;
+     width: 200px;
      margin: 5px;
-     margin-top:-12px;
+     margin-top:-19px;
+     
    }
    
    nav ul {
@@ -247,7 +249,9 @@
          position: fixed;
          width: 100%;
          height: 100vh;
-         background: #159494;
+         background: url('fundo.jpg');
+         background-size: 100% 100%;
+         background-repeat: no-repeat;
          top: 80px;
          left: -100%;
          text-align: center;
@@ -276,17 +280,14 @@
        
        a.active,a:hover {
          border: none;
-         color: #0B6170
+         color: #0B6170;
        }
        
        nav ul.show {
          left: 0;
        }
-   
-       #aqua {
-         display: inline-block;
+  
        }
-      
       h3 {
         display: inline-block;
         margin-top: 20px;
@@ -324,6 +325,7 @@
          color: #fff;
          text-align: center;
       }
+      
    }
    /* Idéia principal da Barra nav e o menu mibile e desktop ( https://youtu.be/tEC4kqzNTnM)*/
     </style>
@@ -339,21 +341,19 @@
             <br>
           </ul>
           <label id="icon">
-            <i class="fa fa-bars" aria-hidden="true"></i>
+            <i id="barra" class="fa fa-list" aria-hidden="true"></i>
           </label>
       </nav>
       <br><br>
       <!-- Script Hora e data atual-->
       <div class="fundo">
             <script type="text/javascript" language="JavaScript">
-
               var now = new Date();
               var hours = now.getHours();
               var minutes = now.getMinutes();
               var timeValue = "" + (hours)
               timeValue += ((minutes < 10) ? ":0" : ":") + minutes
               timerRunning = true;
-              
               mydate = new Date();
               myday = mydate.getDay();
               mymonth = mydate.getMonth();
@@ -458,7 +458,6 @@
 
                 <div class="image">
                     <img src="blog_1.jpg" alt="">
-                    
                 </div>
                 <div class="content">
                     <h3>Astrologia E A Geração Z</h3>
@@ -472,7 +471,6 @@
 
                 <div class="image">
                     <img src="blog_2.jpg" alt="">
-                    
                 </div>
                 <div class="content">
                     <h3>Lutero E Seu Signo Escorpião ♏🦂</h3>
@@ -513,7 +511,6 @@
     <footer>
         <div class="footer-content">
           <h3>© Vitor Oliveira 2023 todos os direitos reservados</h3>
-         
         </div>
       </footer>
       <!-- Script para Fazer o menu funcionar-->
