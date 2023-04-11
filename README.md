@@ -10,8 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
-     
-
     <title></title>
     <!-- estilo integrado para github pages-->
     <style> 
@@ -54,8 +52,7 @@
      height: 110px;
      width: 200px;
      margin: 5px;
-     margin-top:-19px;
-     
+     margin-top:-5px;
    }
    
    nav ul {
@@ -89,7 +86,7 @@
      font-size: 30px;
      line-height: 80px;
      float: right;
-     margin-right: 40px;
+     margin-right: 30px;
      cursor: pointer;
      display: none;
    }
@@ -331,7 +328,13 @@
     </style>
     <body>
       <nav>
-        <img src="astro1.png">
+        <img src="astro1.png" style="
+        display: inline;
+        height: 110px;
+        width: 200px;
+        margin: 5px;
+        margin-top:-19px;
+        ">
           <ul>
             <li class="active"><a href="https://blogoficialvr.netlify.app/">Blog Home</a></li>
             <li><a href="https://vitordev01.netlify.app/">Sobre Min</a></li>
@@ -341,7 +344,7 @@
             <br>
           </ul>
           <label id="icon">
-            <i id="barra" class="fa fa-list" aria-hidden="true"></i>
+            <i id="barra" class="fa fa-bars" aria-hidden="true" style="color:#fff; font-size: 35px;"></i>
           </label>
       </nav>
       <br><br>
