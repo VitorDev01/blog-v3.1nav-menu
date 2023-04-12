@@ -44,7 +44,7 @@
      height: 80px;
      width: 100%;
      background-color: #0B6170;
-     box-shadow: 0px 18px 39.1px 6.9px rgba(224, 241, 255, 0.34);
+     
    }
    
    img {
@@ -75,10 +75,8 @@
    }
    
    a.active, a:hover {
-    
      border: 2px  solid #0B6170;
      transition: .5s;
-     
    }
    
    nav #icon {
@@ -144,7 +142,6 @@
         left: 1rem;
         padding: .5rem 1.5rem;
         font-size: 1.5rem;
-        
     }
     
     .blog .box-container .box .image h3 i{
@@ -228,6 +225,7 @@
         text-align: center;
         margin-top: 50px;
        }
+  
    }
    /* media query para mobile */
    @media (max-width: 909px) {
@@ -240,6 +238,11 @@
        nav {
          position: fixed;
          z-index: 1000;
+         background: rgba(255, 255, 255, 0.09);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5.4px);
+         -webkit-backdrop-filter: blur(5.4px);
+        
        }
      
        nav ul {
@@ -260,7 +263,6 @@
         color: #fff;
         font-size: 40px;
         font-weight: bold;
-     
        }
 
        nav li {
@@ -283,8 +285,18 @@
        nav ul.show {
          left: 0;
        }
-  
+       
+       #vidro {
+        background: rgba(255, 255, 255, 0.09);
+        border-radius: 10px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.0px);
+        -webkit-backdrop-filter: blur(3.0px);
+        width: 300px;
+        margin-left: 55px;
+         
        }
+       
       h3 {
         display: inline-block;
         margin-top: 20px;
@@ -315,12 +327,15 @@
          bottom: 0;
          left: 0;
          right: 0;
-         background: #0B6170;
          height: 50px;
          width: 100vw;
          font-family: "times";
          color: #fff;
          text-align: center;
+         background: rgba(255, 255, 255, 0.09);
+         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+         backdrop-filter: blur(5.4px);
+         -webkit-backdrop-filter: blur(5.4px);
       }
       
    }
@@ -328,24 +343,37 @@
     </style>
     <body>
       <nav>
+       <label id="icon">
+         <i id="barra" class="fa fa-bars" aria-hidden="true" style="color:#fff; font-size: 35px;"></i>
+       </label>
         <img src="astro1.png" style="
         display: inline;
-        height: 110px;
-        width: 200px;
-        margin: 5px;
-        margin-top:-19px;
+        height: 40px;
+        width: 145px;
+        margin: 15px;
+        margin-top: 16px;
         ">
           <ul>
-            <li class="active"><a href="https://blogoficialvr.netlify.app/">Blog Home</a></li>
+            <div id="vidro">
+            <li class="active">
+            <br>
+            <a href="https://blogoficialvr.netlify.app/">Blog Home</a></li>
+            
             <li><a href="https://vitordev01.netlify.app/">Sobre Min</a></li>
-            <li><a href="https://www.instagram.com/vitorkw89/">Instagram </a></li>
+            
+            <li><a href="https://www.instagram.com/vitorkw89/">Instagram</a></li>
+            
+            <li><a href="https://www.facebook.com/profile.php?id=100078322466753">Facebook</a></li>
+            
             <li><a href="mailto:victorskw89@gmail.com">Feedback</a></li>
+            
             <li><a href="https://astrologia-tarot.netlify.app/">Serviços</a></li>
+            
+            <li><a href="https://github.com/VitorDev01">Git Hub </a></li>
             <br>
           </ul>
-          <label id="icon">
-            <i id="barra" class="fa fa-bars" aria-hidden="true" style="color:#fff; font-size: 35px;"></i>
-          </label>
+          </div>
+          
       </nav>
       <br><br>
       <!-- Script Hora e data atual-->
